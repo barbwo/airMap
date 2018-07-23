@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+header {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+}
+header a {
+    margin: auto 1rem;
+}
+header .logo {
+  font-size: 1.5rem;
+}
+main {
+  margin:auto;
+  max-width:1000px;
+}
+a {
+  color: DarkBlue;
+  text-decoration: none;
+}
+a:hover {
+  color: Blue;
+}

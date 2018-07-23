@@ -1,0 +1,7 @@
+{% extends 'layout.html' %}
+
+{% block container %}
+
+<h1>Powietrze w Polsce - stacje pomiarowe</h1>
+<iframe src="{{url_for("map")}}" height="100%" width="100%"></iframe>
+{% endblock %}

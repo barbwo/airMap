@@ -1,0 +1,20 @@
+<?<!DOCTYPE html>
+<html>
+  <head>
+    <title>Powietrze w Polsce</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="/">airMap</a>
+      <div>
+        <a href="/">Home</a>
+        <a href="/about">O stronie</a>
+      </div>
+    </header>
+    <main>
+      {% block container %}
+      {% endblock %}
+    </main>
+  </body>
+</html>
